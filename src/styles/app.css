@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background-color: gainsboro;
+}
+body .app {
+  display: flex;
+  justify-content: center;
+}
+body .app .app-background {
+  background-color: white;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  max-width: 600px;
+}/*# sourceMappingURL=app.css.map */

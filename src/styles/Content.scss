@@ -1,0 +1,8 @@
+.Content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // 좌우여백을 동등하게 주기
+    justify-content: space-between;
+
+}

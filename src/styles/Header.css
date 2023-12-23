@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Hi+Melody&display=swap");
+.Header {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.Header .logo {
+  width: 30%;
+  margin-bottom: -6%;
+  margin-top: -5%;
+}/*# sourceMappingURL=Header.css.map */

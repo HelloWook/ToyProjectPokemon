@@ -1,0 +1,22 @@
+.Searchbox{
+    display: flex;
+    color: white;
+    .search-bos-pic{
+        margin-right: 3%;
+        width: 6%;
+        margin-left:30%;
+    }
+    .search-bos-text{
+        width: 150px;
+        height: 20px;
+        margin-top: 6px;
+        transition: all 0.5s;
+        transition-delay: 0.1s;
+        &:hover, &:focus{
+            outline: none;
+            width: 200px;
+            border-width: 2px;
+       
+        }
+    }
+}
