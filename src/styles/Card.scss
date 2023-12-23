@@ -8,8 +8,20 @@
     padding: 10px;
     width: 24%;
     margin: 1%;
+    position: relative;
     img{
+        margin-bottom: -10%;
         width: 100%;
+        &:hover, &:focus{
+          animation : jump 0.5s;
+        }
     }
-    
+
 }
+
+// keyframe을 이용한 점프 애니메이션
+@keyframes jump {
+    0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+    50% {transform: translate3d(0,-20%,0) scale3d(1,1,3);}
+    100% {transform: translate3d(0,0,0) scale3d(1,1,1);}
+  }

@@ -31,7 +31,7 @@ function Content() {
     return (
       <div className='Content'>
       {pokemonData.map((data, index) => (
-        <Card key={index} id ={data.id} image ={data.image} name={data.name} />
+        <Card key={index} id ={data.id} image ={data.image} name={data.name} type={data.type}/>
       ))}
       </div>
     );

@@ -5,7 +5,6 @@ function Header() {
   return (
     <header className="Header">
       <img src = {imagelogo} alt='image logo' className='logo'></img>
-      
     </header>
   )
 }
