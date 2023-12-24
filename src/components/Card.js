@@ -1,9 +1,9 @@
-import React from 'react'
+import React , {forwardRef} from 'react'
 import '../styles/Card.css'
 
-function Card({id,name,image,type}) {
+const Card= forwardRef(({id,name,image,type},ref)=> {
   return (
-    <div className='Card'>
+    <div className='Card' ref={ref}>
         <img src = {image} alt={name}/>
         <br/>
         <span>도감 번호 : {id}</span>
@@ -15,6 +15,6 @@ function Card({id,name,image,type}) {
         </span>
     </div>
   )
-}
+});
 
 export default Card
